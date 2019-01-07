@@ -64,6 +64,40 @@ Table 1 shows the proportion of agreement between five raters for each rated fea
 (Table 1 to go here)
 
 
+## Raters
+<!-- It will be useful to have a list of names, affiliations and emails of all students who contribute a rating to this exercise. I have added name/email here in alphabetic order of surname, but these need reformatting to put a comma and the institution after the name, and the email in brackets. So please could you please add your institutional affiliation: this gives an opportunity for you to practice skills in Github. You will need to commit and then push the file when you have made the change.-->
+
+
+Nika Adamian	nika.adamian@abdn.ac.uk
+Jessie Baldwin	jessie.baldwin@kcl.ac.uk
+Fionn Buttner	fionn.cleirigh-buttner@ucdconnect.ie
+Ana Coelho	acoelho.tkd@gmail.com
+Sarah de Vries	sarah.devries@magd.ox.ac.uk
+Adna Dumitrescu	adna.dumitrescu@icm-institute.org
+Jennifer Gatzemeir	jennifer.gatzemeier@swansea.ac.uk
+Anna Guttesen	aavs500@york.ac.uk
+Kaitlyn Hair	Kaitlyn.Hair@ed.ac.uk
+Ellie Hassan	eh616@exeter.ac.uk
+Gabriela Hofer	gabriela.hofer@uni-graz.at
+Magdalena Janecka	magdalena.janecka@mssm.edu
+Holly Jenkins	H.E.Jenkins1@newcastle.ac.uk
+Eduard Klapwijk	e.t.klapwijk@fsw.leidenuniv.nl
+Dave Neale	daveneale.phd@gmail.com
+Faye Nitschke	f.nitschke@uq.edu.au
+Emma Norris	emma.norris@ucl.ac.uk
+Daan Ornée	d.a.ornee@umcg.nl
+Sam Parsons	sam.parsons@psy.ox.ac.uk
+Jade Pickering	jade.pickering@postgrad.manchester.ac.uk
+Jon Prager	jon.prager@bristol.ac.uk
+Beatriz Sanz-Bernardo	Beatriz.SanzBernardo@pirbright.ac.uk
+Lara Scofano	lara.scofano@queens.ox.ac.uk
+Bregje Seves	b.l.seves@umcg.nl
+Nadia Soliman	n.soliman16@imperial.ac.uk
+Jac kie Thompson	jackie.thompson@psy.ox.ac.uk
+Marta Topor	m.topor@surrey.ac.uk
+Karolina Urbanska	karolina.urbanska@uca.fr
+Eline Van Geert	eline.vangeert@kuleuven.be
+Samuel Westwood	samuel.westwood@kcl.ac.uk
 
 ## References
 
@@ -85,3 +119,6 @@ Smart RG. (1964) The importance of negative results in psychological research. T
 Smith ML. (1980) Sex bias in counseling and psychotherapy Psychol Bull 87: 392-407. 
 Sterling TD. (1959) Publication Decisions and Their Possible Effects on Inferences Drawn from Tests of Significance--Or Vice Versa. Journal of the American Statistical Association 54: 30-34.  
 -->
+
+
+
