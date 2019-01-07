@@ -1,10 +1,12 @@
 ---
 title: 'Pilot study: Cumberland Lodge course'
 author: "Kate Button and Emily Sena"
-date: "07/01/2019"
+date: "`r Sys.Date()`"
 output:
   word_document: default
   html_document: default
+bibliography: button_sena_bibliography.bib
+csl: apa.csl
 ---
 
 ```{r setup, include=FALSE}
@@ -17,9 +19,9 @@ knitr::opts_chunk$set(echo = TRUE)
 *N.B. Draft version only! Written by Dorothy based on Kate/Emily protocol for full trial.*
 
 ## Background and rationale 
-Publication bias is the term for what occurs whenever the research findings in the published literature differ systematically from of the population of all studies completed in a given area (Rothstein et al., 2005). Publication bias is wasteful, hindering science’s incremental progress (Ioannidis, 2012). Publication bias arises from the decisions of investigators, reviewers, and editors to submit or accept manuscripts for publication based on certain study characteristics. 
+Publication bias is the term for what occurs whenever the research findings in the published literature differ systematically from of the population of all studies completed in a given area [@rothstein2006publication]. Publication bias is wasteful, hindering science’s incremental progress [@ioannidis2012science]. Publication bias arises from the decisions of investigators, reviewers, and editors to submit or accept manuscripts for publication based on certain study characteristics. 
 
-An early study by Mahoney (1977) demonstrated how positive results biased reviewers to favour a paper, regardless of study quality. Mahoney randomly assigned referees to review one of 5 versions of a manuscript, all with identical introduction and methods sections, but different results and discussion sections (positive, negative, methods only, mixed results with positive discussion, mixed results with negative discussion). The methods, data presentation, scientific contribution, and publication merit of manuscripts with positive results were rated as being nearly twice as high as manuscripts with negative results. Interestingly, the scientific contribution and publication merit ratings for the manuscripts where reviews were based solely on the introduction and methods, were comparable to those for the positive results. Thus, negative findings seemed to disproportionally and detrimentally affect appraisals of study quality and merit.  
+An early study by Mahoney [-@mahoney1977publication] demonstrated how positive results biased reviewers to favour a paper, regardless of study quality. Mahoney randomly assigned referees to review one of 5 versions of a manuscript, all with identical introduction and methods sections, but different results and discussion sections (positive, negative, methods only, mixed results with positive discussion, mixed results with negative discussion). The methods, data presentation, scientific contribution, and publication merit of manuscripts with positive results were rated as being nearly twice as high as manuscripts with negative results. Interestingly, the scientific contribution and publication merit ratings for the manuscripts where reviews were based solely on the introduction and methods, were comparable to those for the positive results. Thus, negative findings seemed to disproportionally and detrimentally affect appraisals of study quality and merit.  
   
 This study suggested that one way to prevent publication bias in the review and editorial process is to base the decision to publish solely on assessing the scientific merit of the study rationale, and methods without access to the results. During ‘results-free’ review, authors submit other-wise complete manuscripts, but omit any discussion of results, and provisional accepted is based on peer-review of the introduction and methods alone. The results and discussion of accepted manuscripts are then reviewed in second stage, to check for adherence to methods and to allow minor revisions.  
   
@@ -44,7 +46,7 @@ xx papers will be selected to represent the kind of articles that will be includ
   
 ### Procedure 
  
-Each rater will be introduced to the online tool and then asked to rate a pool of 6 papers. Each paper will be assigned to two independent raters. For each rated item, agreement between raters will evaluated using ?kappa. Sources of disagreement will be discussed between the two raters and one of the course tutors, so that a set of qualitative comments can be collated to consider whether there are any systematic reasons for disagreement. 
+Each rater will be introduced to the online tool and then asked to rate a pool of 6 papers. Each paper will be assigned to two independent raters. For each rated item, agreement between raters will evaluated using ?kappa ($\kappa$). Sources of disagreement will be discussed between the two raters and one of the course tutors, so that a set of qualitative comments can be collated to consider whether there are any systematic reasons for disagreement. 
 
   
 ## Results  
@@ -53,6 +55,9 @@ Table 1 shows the proportion of agreement between two raters for each rated feat
 (Table 1 to go here)
 
 ## References
+
+<!-- Here's the original list of reference, but we're using a bibtex file now - MLS
+
 Coursol A and Wagner EE. (1986) Effect of positive findings on submission and acceptance: A note of meta-analysis bias. Professional Psychology: Research and Parctice 17: 136-137. 
 Dickersin K. (1990) The existence of publication bias and risk factors for its occurrence. JAMA 263: 1385-1389.  
 Fanelli D. (2010) "Positive" results increase down the Hierarchy of the Sciences. PLoS One 5: e10068.  
@@ -68,4 +73,4 @@ Shadish WR, Jr., Doherty M and Montgomery LM. (1989) How many studies are in the
 Smart RG. (1964) The importance of negative results in psychological research. The Canadian Psychologist 5: 225-232.  
 Smith ML. (1980) Sex bias in counseling and psychotherapy Psychol Bull 87: 392-407. 
 Sterling TD. (1959) Publication Decisions and Their Possible Effects on Inferences Drawn from Tests of Significance--Or Vice Versa. Journal of the American Statistical Association 54: 30-34.  
-
+-->
