@@ -14,6 +14,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Evaluating the primary outcome measure developed to assess methodological rigour of experimental studies spanning biomedicine
 
+*N.B. Draft version only! Written by Dorothy based on Kate/Emily protocol for full trial.*
+
 ## Background and rationale 
 Publication bias is the term for what occurs whenever the research findings in the published literature differ systematically from of the population of all studies completed in a given area (Rothstein et al., 2005). Publication bias is wasteful, hindering science’s incremental progress (Ioannidis, 2012). Publication bias arises from the decisions of investigators, reviewers, and editors to submit or accept manuscripts for publication based on certain study characteristics. 
 
