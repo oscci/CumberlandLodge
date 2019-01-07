@@ -1,8 +1,10 @@
 ---
-title: "Pilot study: Cumberland Lodge course""
+title: 'Pilot study: Cumberland Lodge course'
 author: "Kate Button and Emily Sena"
 date: "07/01/2019"
-output: html_document
+output:
+  word_document: default
+  html_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -10,7 +12,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
-# Evaluating the primary outcome measure developed to assess methodological rigour of experimental studies spanning biomedicine" 
+# Evaluating the primary outcome measure developed to assess methodological rigour of experimental studies spanning biomedicine
 
 ## Background and rationale 
 Publication bias is the term for what occurs whenever the research findings in the published literature differ systematically from of the population of all studies completed in a given area (Rothstein et al., 2005). Publication bias is wasteful, hindering science’s incremental progress (Ioannidis, 2012). Publication bias arises from the decisions of investigators, reviewers, and editors to submit or accept manuscripts for publication based on certain study characteristics. 
@@ -46,6 +48,7 @@ Each rater will be introduced to the online tool and then asked to rate x papers
 ## Results  
 Table 1 shows the proportion of agreement between two raters for each rated feature. 
 
+(Table 1 to go here)
 
 ## References
 Coursol A and Wagner EE. (1986) Effect of positive findings on submission and acceptance: A note of meta-analysis bias. Professional Psychology: Research and Parctice 17: 136-137. 
