@@ -1,0 +1,151 @@
+TraineeIds,PublicationId,Question,Answer,Comments,Datetime
+91138463-3cc9-435d-9d81-9f866f1defd0,b831658d-7dbf-423a-9844-31d7ebf6d064,"If between, is randomisation reported to assign samples/participants/animals to experimental group for at least one experiment?",Yes,test,7/01/2019 16:09
+91138463-3cc9-435d-9d81-9f866f1defd0,b831658d-7dbf-423a-9844-31d7ebf6d064,"If between, if randomisation was NOT done, does the paper mention randomisation at all?",Not Applicable,test,7/01/2019 16:09
+91138463-3cc9-435d-9d81-9f866f1defd0,b831658d-7dbf-423a-9844-31d7ebf6d064,"If between, is allocation concealment reported for at least one experiment?",Yes,test,7/01/2019 16:09
+91138463-3cc9-435d-9d81-9f866f1defd0,b831658d-7dbf-423a-9844-31d7ebf6d064,Does the manuscript report a clinical trial registration number or protocol registration reference?,Yes,test,7/01/2019 16:09
+91138463-3cc9-435d-9d81-9f866f1defd0,b831658d-7dbf-423a-9844-31d7ebf6d064,"Is the basis for a formal sample size calculations (effect size, variance, power) presented for at least one experiment?",Yes,test,7/01/2019 16:09
+91138463-3cc9-435d-9d81-9f866f1defd0,b831658d-7dbf-423a-9844-31d7ebf6d064,Are the inclusion/exclusion criteria defined for at least one experiment?,Yes,test,7/01/2019 16:09
+91138463-3cc9-435d-9d81-9f866f1defd0,b831658d-7dbf-423a-9844-31d7ebf6d064,"If within or mixed, is an appropriate method to control for order effects reported (e.g., counterbalancing) for at least one experiment?",Not Applicable,test,7/01/2019 16:09
+91138463-3cc9-435d-9d81-9f866f1defd0,b831658d-7dbf-423a-9844-31d7ebf6d064,Are reasons/rules for data exclusions during analysis reported for any outcome?,Yes,test,7/01/2019 16:09
+91138463-3cc9-435d-9d81-9f866f1defd0,b831658d-7dbf-423a-9844-31d7ebf6d064,Is the number of participants/animals/samples reported (for each group) for each analysis?,Yes,test,7/01/2019 16:09
+91138463-3cc9-435d-9d81-9f866f1defd0,b831658d-7dbf-423a-9844-31d7ebf6d064,Are participants reported as blinded for at least one of the outcomes measured?,Yes,test,7/01/2019 16:09
+91138463-3cc9-435d-9d81-9f866f1defd0,b831658d-7dbf-423a-9844-31d7ebf6d064,"For animal studies, does the manuscript report a protocol / permit number?",Not Applicable,test,7/01/2019 16:09
+91138463-3cc9-435d-9d81-9f866f1defd0,b831658d-7dbf-423a-9844-31d7ebf6d064,"Is the study design within-subjects, between-subjects, or mixed?",Between-subjects,test,7/01/2019 16:09
+91138463-3cc9-435d-9d81-9f866f1defd0,b831658d-7dbf-423a-9844-31d7ebf6d064,Does the manuscript state the committee(s) approving the study protocol?,Yes,test,7/01/2019 16:09
+91138463-3cc9-435d-9d81-9f866f1defd0,b831658d-7dbf-423a-9844-31d7ebf6d064,Does the manuscript include a statement about blinding even if no blinding was done?,Yes,test,7/01/2019 16:09
+91138463-3cc9-435d-9d81-9f866f1defd0,b831658d-7dbf-423a-9844-31d7ebf6d064,Is it stated that the data exclusion rules were made a priori for at least one outcome,Yes,test,7/01/2019 16:09
+91138463-3cc9-435d-9d81-9f866f1defd0,b831658d-7dbf-423a-9844-31d7ebf6d064,Are assessors/experimenters reported as blinded for at least one of the outcomes measured?,Yes,test,7/01/2019 16:09
+91138463-3cc9-435d-9d81-9f866f1defd0,b831658d-7dbf-423a-9844-31d7ebf6d064,If multiple outcomes (DVs) are used then has a primary outcome been identified?,Yes,test,7/01/2019 16:09
+91138463-3cc9-435d-9d81-9f866f1defd0,b831658d-7dbf-423a-9844-31d7ebf6d064,Is the total number of samples/participants/animals included in the study reported?,Yes,test,7/01/2019 16:09
+91138463-3cc9-435d-9d81-9f866f1defd0,b831658d-7dbf-423a-9844-31d7ebf6d064,Is it clear that the inclusion/exclusion criteria were pre-established for at least one experiment?,Yes,test,7/01/2019 16:09
+91138463-3cc9-435d-9d81-9f866f1defd0,b831658d-7dbf-423a-9844-31d7ebf6d064,"For human studies, is there a statement confirming that Informed Consent was obtained from all participants?",Yes,test,7/01/2019 16:09
+91138463-3cc9-435d-9d81-9f866f1defd0,b831658d-7dbf-423a-9844-31d7ebf6d064,Is at least one outcome (DV) associated with at least one statistical test?,Yes,test,7/01/2019 16:09
+91138463-3cc9-435d-9d81-9f866f1defd0,b831658d-7dbf-423a-9844-31d7ebf6d064,Is at least one outcome (DV) measure described?,Yes,test,7/01/2019 16:09
+91138463-3cc9-435d-9d81-9f866f1defd0,b831658d-7dbf-423a-9844-31d7ebf6d064,Is the experimental unit stated for at least one experiment?,No,test,7/01/2019 16:09
+91138463-3cc9-435d-9d81-9f866f1defd0,b831658d-7dbf-423a-9844-31d7ebf6d064,Are confirmatory and exploratory analyses clearly defined?,Yes,test ,7/01/2019 16:09
+91138463-3cc9-435d-9d81-9f866f1defd0,b831658d-7dbf-423a-9844-31d7ebf6d064,"If between, are the methods of allocation to group (e.g., random sequence generation, matching, block randomisation, minimisation etc.) described for at least one experiment?",Yes,test,7/01/2019 16:09
+91138463-3cc9-435d-9d81-9f866f1defd0,b831658d-7dbf-423a-9844-31d7ebf6d064,Is a rational for the sample size reported for at least one experiment?,Yes,test,7/01/2019 16:09
+91138463-3cc9-435d-9d81-9f866f1defd0,b831658d-7dbf-423a-9844-31d7ebf6d064,Are statistical analyses reported as blind to experimental groups (between) or order (within)?,Yes,test,7/01/2019 16:09
+91138463-3cc9-435d-9d81-9f866f1defd0,b831658d-7dbf-423a-9844-31d7ebf6d064,"Does this publication describe in vivo experiments, in vitro/ex vivo experiments or both?",In vivo,test,7/01/2019 16:09
+91138463-3cc9-435d-9d81-9f866f1defd0,b831658d-7dbf-423a-9844-31d7ebf6d064,Does the manuscript include an explicit statement of approval?,Yes,test,7/01/2019 16:09
+91138463-3cc9-435d-9d81-9f866f1defd0,b831658d-7dbf-423a-9844-31d7ebf6d064,Does this publication include human study?,Yes,test,7/01/2019 16:09
+9fa83ec6-a203-437f-ae2c-3642733dce24,b831658d-7dbf-423a-9844-31d7ebf6d064,Does the manuscript report a clinical trial registration number or protocol registration reference?,No,test,7/01/2019 16:07
+9fa83ec6-a203-437f-ae2c-3642733dce24,b831658d-7dbf-423a-9844-31d7ebf6d064,"Does this publication describe in vivo experiments, in vitro/ex vivo experiments or both?",In vivo,test,7/01/2019 16:07
+9fa83ec6-a203-437f-ae2c-3642733dce24,b831658d-7dbf-423a-9844-31d7ebf6d064,"For animal studies, does the manuscript report a protocol / permit number?",Yes,test,7/01/2019 16:07
+9fa83ec6-a203-437f-ae2c-3642733dce24,b831658d-7dbf-423a-9844-31d7ebf6d064,Is the total number of samples/participants/animals included in the study reported?,No,test,7/01/2019 16:07
+9fa83ec6-a203-437f-ae2c-3642733dce24,b831658d-7dbf-423a-9844-31d7ebf6d064,Are reasons/rules for data exclusions during analysis reported for any outcome?,Yes,test,7/01/2019 16:07
+9fa83ec6-a203-437f-ae2c-3642733dce24,b831658d-7dbf-423a-9844-31d7ebf6d064,Is the experimental unit stated for at least one experiment?,No,test,7/01/2019 16:07
+9fa83ec6-a203-437f-ae2c-3642733dce24,b831658d-7dbf-423a-9844-31d7ebf6d064,Does the manuscript include a statement about blinding even if no blinding was done?,Not Applicable,test,7/01/2019 16:07
+9fa83ec6-a203-437f-ae2c-3642733dce24,b831658d-7dbf-423a-9844-31d7ebf6d064,Are confirmatory and exploratory analyses clearly defined?,No,test,7/01/2019 16:07
+9fa83ec6-a203-437f-ae2c-3642733dce24,b831658d-7dbf-423a-9844-31d7ebf6d064,Is at least one outcome (DV) measure described?,Yes,test,7/01/2019 16:07
+9fa83ec6-a203-437f-ae2c-3642733dce24,b831658d-7dbf-423a-9844-31d7ebf6d064,Does this publication include human study?,Yes,test,7/01/2019 16:07
+9fa83ec6-a203-437f-ae2c-3642733dce24,b831658d-7dbf-423a-9844-31d7ebf6d064,Is it clear that the inclusion/exclusion criteria were pre-established for at least one experiment?,Yes,test,7/01/2019 16:07
+9fa83ec6-a203-437f-ae2c-3642733dce24,b831658d-7dbf-423a-9844-31d7ebf6d064,Are statistical analyses reported as blind to experimental groups (between) or order (within)?,No,test,7/01/2019 16:07
+9fa83ec6-a203-437f-ae2c-3642733dce24,b831658d-7dbf-423a-9844-31d7ebf6d064,Are the inclusion/exclusion criteria defined for at least one experiment?,Not Applicable,test,7/01/2019 16:07
+9fa83ec6-a203-437f-ae2c-3642733dce24,b831658d-7dbf-423a-9844-31d7ebf6d064,"Is the basis for a formal sample size calculations (effect size, variance, power) presented for at least one experiment?",No,test,7/01/2019 16:07
+9fa83ec6-a203-437f-ae2c-3642733dce24,b831658d-7dbf-423a-9844-31d7ebf6d064,"If between, is allocation concealment reported for at least one experiment?",No,test,7/01/2019 16:07
+9fa83ec6-a203-437f-ae2c-3642733dce24,b831658d-7dbf-423a-9844-31d7ebf6d064,Is a rational for the sample size reported for at least one experiment?,Yes,test,7/01/2019 16:07
+9fa83ec6-a203-437f-ae2c-3642733dce24,b831658d-7dbf-423a-9844-31d7ebf6d064,"If between, is randomisation reported to assign samples/participants/animals to experimental group for at least one experiment?",No,test,7/01/2019 16:07
+9fa83ec6-a203-437f-ae2c-3642733dce24,b831658d-7dbf-423a-9844-31d7ebf6d064,Does the manuscript state the committee(s) approving the study protocol?,Yes,test,7/01/2019 16:07
+9fa83ec6-a203-437f-ae2c-3642733dce24,b831658d-7dbf-423a-9844-31d7ebf6d064,"If within or mixed, is an appropriate method to control for order effects reported (e.g., counterbalancing) for at least one experiment?",No,test,7/01/2019 16:07
+9fa83ec6-a203-437f-ae2c-3642733dce24,b831658d-7dbf-423a-9844-31d7ebf6d064,Is at least one outcome (DV) associated with at least one statistical test?,Yes,test,7/01/2019 16:07
+9fa83ec6-a203-437f-ae2c-3642733dce24,b831658d-7dbf-423a-9844-31d7ebf6d064,"Is the study design within-subjects, between-subjects, or mixed?",Between-subjects,test,7/01/2019 16:07
+9fa83ec6-a203-437f-ae2c-3642733dce24,b831658d-7dbf-423a-9844-31d7ebf6d064,"If between, are the methods of allocation to group (e.g., random sequence generation, matching, block randomisation, minimisation etc.) described for at least one experiment?",Yes,test,7/01/2019 16:07
+9fa83ec6-a203-437f-ae2c-3642733dce24,b831658d-7dbf-423a-9844-31d7ebf6d064,"For human studies, is there a statement confirming that Informed Consent was obtained from all participants?",Yes,test,7/01/2019 16:07
+9fa83ec6-a203-437f-ae2c-3642733dce24,b831658d-7dbf-423a-9844-31d7ebf6d064,Is the number of participants/animals/samples reported (for each group) for each analysis?,No,test,7/01/2019 16:07
+9fa83ec6-a203-437f-ae2c-3642733dce24,b831658d-7dbf-423a-9844-31d7ebf6d064,Is it stated that the data exclusion rules were made a priori for at least one outcome,Yes,test,7/01/2019 16:07
+9fa83ec6-a203-437f-ae2c-3642733dce24,b831658d-7dbf-423a-9844-31d7ebf6d064,"If between, if randomisation was NOT done, does the paper mention randomisation at all?",Yes,test,7/01/2019 16:07
+9fa83ec6-a203-437f-ae2c-3642733dce24,b831658d-7dbf-423a-9844-31d7ebf6d064,If multiple outcomes (DVs) are used then has a primary outcome been identified?,Partially,test,7/01/2019 16:07
+9fa83ec6-a203-437f-ae2c-3642733dce24,b831658d-7dbf-423a-9844-31d7ebf6d064,Are assessors/experimenters reported as blinded for at least one of the outcomes measured?,Yes,test,7/01/2019 16:07
+9fa83ec6-a203-437f-ae2c-3642733dce24,b831658d-7dbf-423a-9844-31d7ebf6d064,Does the manuscript include an explicit statement of approval?,Yes,test,7/01/2019 16:07
+9fa83ec6-a203-437f-ae2c-3642733dce24,b831658d-7dbf-423a-9844-31d7ebf6d064,Are participants reported as blinded for at least one of the outcomes measured?,No,test,7/01/2019 16:07
+91138463-3cc9-435d-9d81-9f866f1defd0,d028f68c-83e0-4625-ab40-44bcf6cb6c60,Is at least one outcome (DV) measure described?,Yes,test,7/01/2019 16:21
+91138463-3cc9-435d-9d81-9f866f1defd0,d028f68c-83e0-4625-ab40-44bcf6cb6c60,If multiple outcomes (DVs) are used then has a primary outcome been identified?,No,test,7/01/2019 16:21
+91138463-3cc9-435d-9d81-9f866f1defd0,d028f68c-83e0-4625-ab40-44bcf6cb6c60,"If between, are the methods of allocation to group (e.g., random sequence generation, matching, block randomisation, minimisation etc.) described for at least one experiment?",Partially,test,7/01/2019 16:21
+91138463-3cc9-435d-9d81-9f866f1defd0,d028f68c-83e0-4625-ab40-44bcf6cb6c60,"If between, is allocation concealment reported for at least one experiment?",No,test,7/01/2019 16:21
+91138463-3cc9-435d-9d81-9f866f1defd0,d028f68c-83e0-4625-ab40-44bcf6cb6c60,Are assessors/experimenters reported as blinded for at least one of the outcomes measured?,No,test,7/01/2019 16:21
+91138463-3cc9-435d-9d81-9f866f1defd0,d028f68c-83e0-4625-ab40-44bcf6cb6c60,Does this publication include human study?,Yes,test,7/01/2019 16:21
+91138463-3cc9-435d-9d81-9f866f1defd0,d028f68c-83e0-4625-ab40-44bcf6cb6c60,Does the manuscript state the committee(s) approving the study protocol?,No,test,7/01/2019 16:21
+91138463-3cc9-435d-9d81-9f866f1defd0,d028f68c-83e0-4625-ab40-44bcf6cb6c60,Does the manuscript include a statement about blinding even if no blinding was done?,No,test,7/01/2019 16:21
+91138463-3cc9-435d-9d81-9f866f1defd0,d028f68c-83e0-4625-ab40-44bcf6cb6c60,Are reasons/rules for data exclusions during analysis reported for any outcome?,No,test,7/01/2019 16:21
+91138463-3cc9-435d-9d81-9f866f1defd0,d028f68c-83e0-4625-ab40-44bcf6cb6c60,Are the inclusion/exclusion criteria defined for at least one experiment?,No,test,7/01/2019 16:21
+91138463-3cc9-435d-9d81-9f866f1defd0,d028f68c-83e0-4625-ab40-44bcf6cb6c60,"For animal studies, does the manuscript report a protocol / permit number?",Not Applicable,test,7/01/2019 16:21
+91138463-3cc9-435d-9d81-9f866f1defd0,d028f68c-83e0-4625-ab40-44bcf6cb6c60,Are statistical analyses reported as blind to experimental groups (between) or order (within)?,No,test,7/01/2019 16:21
+91138463-3cc9-435d-9d81-9f866f1defd0,d028f68c-83e0-4625-ab40-44bcf6cb6c60,Is it clear that the inclusion/exclusion criteria were pre-established for at least one experiment?,No,test,7/01/2019 16:21
+91138463-3cc9-435d-9d81-9f866f1defd0,d028f68c-83e0-4625-ab40-44bcf6cb6c60,"Is the basis for a formal sample size calculations (effect size, variance, power) presented for at least one experiment?",No,test,7/01/2019 16:21
+91138463-3cc9-435d-9d81-9f866f1defd0,d028f68c-83e0-4625-ab40-44bcf6cb6c60,"If between, is randomisation reported to assign samples/participants/animals to experimental group for at least one experiment?",No,,7/01/2019 16:21
+91138463-3cc9-435d-9d81-9f866f1defd0,d028f68c-83e0-4625-ab40-44bcf6cb6c60,"If within or mixed, is an appropriate method to control for order effects reported (e.g., counterbalancing) for at least one experiment?",Yes,test,7/01/2019 16:21
+91138463-3cc9-435d-9d81-9f866f1defd0,d028f68c-83e0-4625-ab40-44bcf6cb6c60,Is a rational for the sample size reported for at least one experiment?,No,test,7/01/2019 16:21
+91138463-3cc9-435d-9d81-9f866f1defd0,d028f68c-83e0-4625-ab40-44bcf6cb6c60,"Does this publication describe in vivo experiments, in vitro/ex vivo experiments or both?",In vivo,test,7/01/2019 16:21
+91138463-3cc9-435d-9d81-9f866f1defd0,d028f68c-83e0-4625-ab40-44bcf6cb6c60,Is the total number of samples/participants/animals included in the study reported?,Yes,test,7/01/2019 16:21
+91138463-3cc9-435d-9d81-9f866f1defd0,d028f68c-83e0-4625-ab40-44bcf6cb6c60,"For human studies, is there a statement confirming that Informed Consent was obtained from all participants?",No,test,7/01/2019 16:21
+91138463-3cc9-435d-9d81-9f866f1defd0,d028f68c-83e0-4625-ab40-44bcf6cb6c60,"If between, if randomisation was NOT done, does the paper mention randomisation at all?",No,test,7/01/2019 16:21
+91138463-3cc9-435d-9d81-9f866f1defd0,d028f68c-83e0-4625-ab40-44bcf6cb6c60,Is the number of participants/animals/samples reported (for each group) for each analysis?,Yes,test,7/01/2019 16:21
+91138463-3cc9-435d-9d81-9f866f1defd0,d028f68c-83e0-4625-ab40-44bcf6cb6c60,"Is the study design within-subjects, between-subjects, or mixed?",Mixed,test,7/01/2019 16:21
+91138463-3cc9-435d-9d81-9f866f1defd0,d028f68c-83e0-4625-ab40-44bcf6cb6c60,Is the experimental unit stated for at least one experiment?,No,test,7/01/2019 16:21
+91138463-3cc9-435d-9d81-9f866f1defd0,d028f68c-83e0-4625-ab40-44bcf6cb6c60,Does the manuscript report a clinical trial registration number or protocol registration reference?,No,test,7/01/2019 16:21
+91138463-3cc9-435d-9d81-9f866f1defd0,d028f68c-83e0-4625-ab40-44bcf6cb6c60,Are participants reported as blinded for at least one of the outcomes measured?,No,test,7/01/2019 16:21
+91138463-3cc9-435d-9d81-9f866f1defd0,d028f68c-83e0-4625-ab40-44bcf6cb6c60,Does the manuscript include an explicit statement of approval?,No,test,7/01/2019 16:21
+91138463-3cc9-435d-9d81-9f866f1defd0,d028f68c-83e0-4625-ab40-44bcf6cb6c60,Is at least one outcome (DV) associated with at least one statistical test?,Yes,test,7/01/2019 16:21
+91138463-3cc9-435d-9d81-9f866f1defd0,d028f68c-83e0-4625-ab40-44bcf6cb6c60,Is it stated that the data exclusion rules were made a priori for at least one outcome,No,test,7/01/2019 16:21
+91138463-3cc9-435d-9d81-9f866f1defd0,d028f68c-83e0-4625-ab40-44bcf6cb6c60,Are confirmatory and exploratory analyses clearly defined?,No,test,7/01/2019 16:21
+9fa83ec6-a203-437f-ae2c-3642733dce24,d028f68c-83e0-4625-ab40-44bcf6cb6c60,Are reasons/rules for data exclusions during analysis reported for any outcome?,Not Applicable,test,7/01/2019 16:19
+9fa83ec6-a203-437f-ae2c-3642733dce24,d028f68c-83e0-4625-ab40-44bcf6cb6c60,Does the manuscript include a statement about blinding even if no blinding was done?,Yes,test,7/01/2019 16:19
+9fa83ec6-a203-437f-ae2c-3642733dce24,d028f68c-83e0-4625-ab40-44bcf6cb6c60,"Does this publication describe in vivo experiments, in vitro/ex vivo experiments or both?",In vivo,test,7/01/2019 16:19
+9fa83ec6-a203-437f-ae2c-3642733dce24,d028f68c-83e0-4625-ab40-44bcf6cb6c60,Does this publication include human study?,Yes,test,7/01/2019 16:19
+9fa83ec6-a203-437f-ae2c-3642733dce24,d028f68c-83e0-4625-ab40-44bcf6cb6c60,"If within or mixed, is an appropriate method to control for order effects reported (e.g., counterbalancing) for at least one experiment?",Yes,test,7/01/2019 16:19
+9fa83ec6-a203-437f-ae2c-3642733dce24,d028f68c-83e0-4625-ab40-44bcf6cb6c60,Are participants reported as blinded for at least one of the outcomes measured?,Yes,test,7/01/2019 16:19
+9fa83ec6-a203-437f-ae2c-3642733dce24,d028f68c-83e0-4625-ab40-44bcf6cb6c60,Does the manuscript state the committee(s) approving the study protocol?,Yes,test,7/01/2019 16:19
+9fa83ec6-a203-437f-ae2c-3642733dce24,d028f68c-83e0-4625-ab40-44bcf6cb6c60,"If between, is randomisation reported to assign samples/participants/animals to experimental group for at least one experiment?",Yes,test,7/01/2019 16:19
+9fa83ec6-a203-437f-ae2c-3642733dce24,d028f68c-83e0-4625-ab40-44bcf6cb6c60,Does the manuscript report a clinical trial registration number or protocol registration reference?,Yes,test,7/01/2019 16:19
+9fa83ec6-a203-437f-ae2c-3642733dce24,d028f68c-83e0-4625-ab40-44bcf6cb6c60,Are statistical analyses reported as blind to experimental groups (between) or order (within)?,Yes,test,7/01/2019 16:19
+9fa83ec6-a203-437f-ae2c-3642733dce24,d028f68c-83e0-4625-ab40-44bcf6cb6c60,Is at least one outcome (DV) measure described?,No,test,7/01/2019 16:19
+9fa83ec6-a203-437f-ae2c-3642733dce24,d028f68c-83e0-4625-ab40-44bcf6cb6c60,"If between, is allocation concealment reported for at least one experiment?",Yes,test,7/01/2019 16:19
+9fa83ec6-a203-437f-ae2c-3642733dce24,d028f68c-83e0-4625-ab40-44bcf6cb6c60,If multiple outcomes (DVs) are used then has a primary outcome been identified?,Partially,test,7/01/2019 16:19
+9fa83ec6-a203-437f-ae2c-3642733dce24,d028f68c-83e0-4625-ab40-44bcf6cb6c60,Is the experimental unit stated for at least one experiment?,Not Applicable,test,7/01/2019 16:19
+9fa83ec6-a203-437f-ae2c-3642733dce24,d028f68c-83e0-4625-ab40-44bcf6cb6c60,Does the manuscript include an explicit statement of approval?,Yes,test,7/01/2019 16:19
+9fa83ec6-a203-437f-ae2c-3642733dce24,d028f68c-83e0-4625-ab40-44bcf6cb6c60,"For human studies, is there a statement confirming that Informed Consent was obtained from all participants?",No,test,7/01/2019 16:19
+9fa83ec6-a203-437f-ae2c-3642733dce24,d028f68c-83e0-4625-ab40-44bcf6cb6c60,Are the inclusion/exclusion criteria defined for at least one experiment?,Yes,test,7/01/2019 16:19
+9fa83ec6-a203-437f-ae2c-3642733dce24,d028f68c-83e0-4625-ab40-44bcf6cb6c60,"If between, if randomisation was NOT done, does the paper mention randomisation at all?",No,test,7/01/2019 16:19
+9fa83ec6-a203-437f-ae2c-3642733dce24,d028f68c-83e0-4625-ab40-44bcf6cb6c60,Is a rational for the sample size reported for at least one experiment?,Yes,test,7/01/2019 16:19
+9fa83ec6-a203-437f-ae2c-3642733dce24,d028f68c-83e0-4625-ab40-44bcf6cb6c60,"If between, are the methods of allocation to group (e.g., random sequence generation, matching, block randomisation, minimisation etc.) described for at least one experiment?",Yes,test,7/01/2019 16:19
+9fa83ec6-a203-437f-ae2c-3642733dce24,d028f68c-83e0-4625-ab40-44bcf6cb6c60,Is the total number of samples/participants/animals included in the study reported?,Yes,test,7/01/2019 16:19
+9fa83ec6-a203-437f-ae2c-3642733dce24,d028f68c-83e0-4625-ab40-44bcf6cb6c60,Are assessors/experimenters reported as blinded for at least one of the outcomes measured?,Yes,test,7/01/2019 16:19
+9fa83ec6-a203-437f-ae2c-3642733dce24,d028f68c-83e0-4625-ab40-44bcf6cb6c60,"Is the study design within-subjects, between-subjects, or mixed?",Between-subjects,test,7/01/2019 16:19
+9fa83ec6-a203-437f-ae2c-3642733dce24,d028f68c-83e0-4625-ab40-44bcf6cb6c60,Is it clear that the inclusion/exclusion criteria were pre-established for at least one experiment?,Yes,test,7/01/2019 16:19
+9fa83ec6-a203-437f-ae2c-3642733dce24,d028f68c-83e0-4625-ab40-44bcf6cb6c60,"For animal studies, does the manuscript report a protocol / permit number?",Not Applicable,test,7/01/2019 16:19
+9fa83ec6-a203-437f-ae2c-3642733dce24,d028f68c-83e0-4625-ab40-44bcf6cb6c60,Is it stated that the data exclusion rules were made a priori for at least one outcome,Yes,test,7/01/2019 16:19
+9fa83ec6-a203-437f-ae2c-3642733dce24,d028f68c-83e0-4625-ab40-44bcf6cb6c60,Is at least one outcome (DV) associated with at least one statistical test?,No,test,7/01/2019 16:19
+9fa83ec6-a203-437f-ae2c-3642733dce24,d028f68c-83e0-4625-ab40-44bcf6cb6c60,Is the number of participants/animals/samples reported (for each group) for each analysis?,Partially,test,7/01/2019 16:19
+9fa83ec6-a203-437f-ae2c-3642733dce24,d028f68c-83e0-4625-ab40-44bcf6cb6c60,"Is the basis for a formal sample size calculations (effect size, variance, power) presented for at least one experiment?",Yes,test,7/01/2019 16:19
+9fa83ec6-a203-437f-ae2c-3642733dce24,d028f68c-83e0-4625-ab40-44bcf6cb6c60,Are confirmatory and exploratory analyses clearly defined?,No,test,7/01/2019 16:19
+9fa83ec6-a203-437f-ae2c-3642733dce24,1cf94d1d-5314-4fa1-9f2e-a025ff8e4381,Are confirmatory and exploratory analyses clearly defined?,Yes,test,7/01/2019 16:55
+9fa83ec6-a203-437f-ae2c-3642733dce24,1cf94d1d-5314-4fa1-9f2e-a025ff8e4381,If multiple outcomes (DVs) are used then has a primary outcome been identified?,Not Applicable,test,7/01/2019 16:55
+9fa83ec6-a203-437f-ae2c-3642733dce24,1cf94d1d-5314-4fa1-9f2e-a025ff8e4381,Is the number of participants/animals/samples reported (for each group) for each analysis?,Partially,test,7/01/2019 16:55
+9fa83ec6-a203-437f-ae2c-3642733dce24,1cf94d1d-5314-4fa1-9f2e-a025ff8e4381,"If between, if randomisation was NOT done, does the paper mention randomisation at all?",Not Applicable,test,7/01/2019 16:55
+9fa83ec6-a203-437f-ae2c-3642733dce24,1cf94d1d-5314-4fa1-9f2e-a025ff8e4381,Is a rational for the sample size reported for at least one experiment?,Yes,test,7/01/2019 16:55
+9fa83ec6-a203-437f-ae2c-3642733dce24,1cf94d1d-5314-4fa1-9f2e-a025ff8e4381,"If between, is randomisation reported to assign samples/participants/animals to experimental group for at least one experiment?",Yes,test,7/01/2019 16:55
+9fa83ec6-a203-437f-ae2c-3642733dce24,1cf94d1d-5314-4fa1-9f2e-a025ff8e4381,Does the manuscript report a clinical trial registration number or protocol registration reference?,Yes,test,7/01/2019 16:55
+9fa83ec6-a203-437f-ae2c-3642733dce24,1cf94d1d-5314-4fa1-9f2e-a025ff8e4381,"Is the basis for a formal sample size calculations (effect size, variance, power) presented for at least one experiment?",No,test,7/01/2019 16:55
+9fa83ec6-a203-437f-ae2c-3642733dce24,1cf94d1d-5314-4fa1-9f2e-a025ff8e4381,Does the manuscript state the committee(s) approving the study protocol?,Not Applicable,test,7/01/2019 16:55
+9fa83ec6-a203-437f-ae2c-3642733dce24,1cf94d1d-5314-4fa1-9f2e-a025ff8e4381,Are reasons/rules for data exclusions during analysis reported for any outcome?,Yes,test,7/01/2019 16:55
+9fa83ec6-a203-437f-ae2c-3642733dce24,1cf94d1d-5314-4fa1-9f2e-a025ff8e4381,"Is the study design within-subjects, between-subjects, or mixed?",Between-subjects,test,7/01/2019 16:55
+9fa83ec6-a203-437f-ae2c-3642733dce24,1cf94d1d-5314-4fa1-9f2e-a025ff8e4381,"If within or mixed, is an appropriate method to control for order effects reported (e.g., counterbalancing) for at least one experiment?",No,test,7/01/2019 16:55
+9fa83ec6-a203-437f-ae2c-3642733dce24,1cf94d1d-5314-4fa1-9f2e-a025ff8e4381,Does this publication include human study?,No,test,7/01/2019 16:55
+9fa83ec6-a203-437f-ae2c-3642733dce24,1cf94d1d-5314-4fa1-9f2e-a025ff8e4381,Is it clear that the inclusion/exclusion criteria were pre-established for at least one experiment?,Yes,test,7/01/2019 16:55
+9fa83ec6-a203-437f-ae2c-3642733dce24,1cf94d1d-5314-4fa1-9f2e-a025ff8e4381,Are the inclusion/exclusion criteria defined for at least one experiment?,Not Applicable,test,7/01/2019 16:55
+9fa83ec6-a203-437f-ae2c-3642733dce24,1cf94d1d-5314-4fa1-9f2e-a025ff8e4381,Does the manuscript include a statement about blinding even if no blinding was done?,Yes,test,7/01/2019 16:55
+9fa83ec6-a203-437f-ae2c-3642733dce24,1cf94d1d-5314-4fa1-9f2e-a025ff8e4381,"If between, are the methods of allocation to group (e.g., random sequence generation, matching, block randomisation, minimisation etc.) described for at least one experiment?",Yes,test,7/01/2019 16:55
+9fa83ec6-a203-437f-ae2c-3642733dce24,1cf94d1d-5314-4fa1-9f2e-a025ff8e4381,Are assessors/experimenters reported as blinded for at least one of the outcomes measured?,No,test,7/01/2019 16:55
+9fa83ec6-a203-437f-ae2c-3642733dce24,1cf94d1d-5314-4fa1-9f2e-a025ff8e4381,Is the experimental unit stated for at least one experiment?,No,test,7/01/2019 16:55
+9fa83ec6-a203-437f-ae2c-3642733dce24,1cf94d1d-5314-4fa1-9f2e-a025ff8e4381,"Does this publication describe in vivo experiments, in vitro/ex vivo experiments or both?",Both,test,7/01/2019 16:55
+9fa83ec6-a203-437f-ae2c-3642733dce24,1cf94d1d-5314-4fa1-9f2e-a025ff8e4381,Is at least one outcome (DV) associated with at least one statistical test?,Yes,test,7/01/2019 16:55
+9fa83ec6-a203-437f-ae2c-3642733dce24,1cf94d1d-5314-4fa1-9f2e-a025ff8e4381,Is the total number of samples/participants/animals included in the study reported?,Yes,test,7/01/2019 16:55
+9fa83ec6-a203-437f-ae2c-3642733dce24,1cf94d1d-5314-4fa1-9f2e-a025ff8e4381,Are participants reported as blinded for at least one of the outcomes measured?,Yes,test,7/01/2019 16:55
+9fa83ec6-a203-437f-ae2c-3642733dce24,1cf94d1d-5314-4fa1-9f2e-a025ff8e4381,Is at least one outcome (DV) measure described?,Partially,test,7/01/2019 16:55
+9fa83ec6-a203-437f-ae2c-3642733dce24,1cf94d1d-5314-4fa1-9f2e-a025ff8e4381,"For animal studies, does the manuscript report a protocol / permit number?",No,test,7/01/2019 16:55
+9fa83ec6-a203-437f-ae2c-3642733dce24,1cf94d1d-5314-4fa1-9f2e-a025ff8e4381,"For human studies, is there a statement confirming that Informed Consent was obtained from all participants?",No,test,7/01/2019 16:55
+9fa83ec6-a203-437f-ae2c-3642733dce24,1cf94d1d-5314-4fa1-9f2e-a025ff8e4381,Is it stated that the data exclusion rules were made a priori for at least one outcome,No,test,7/01/2019 16:55
+9fa83ec6-a203-437f-ae2c-3642733dce24,1cf94d1d-5314-4fa1-9f2e-a025ff8e4381,Are statistical analyses reported as blind to experimental groups (between) or order (within)?,No,test,7/01/2019 16:55
+9fa83ec6-a203-437f-ae2c-3642733dce24,1cf94d1d-5314-4fa1-9f2e-a025ff8e4381,"If between, is allocation concealment reported for at least one experiment?",Partially,test,7/01/2019 16:55
+9fa83ec6-a203-437f-ae2c-3642733dce24,1cf94d1d-5314-4fa1-9f2e-a025ff8e4381,Does the manuscript include an explicit statement of approval?,No,test,7/01/2019 16:55
