@@ -27,7 +27,7 @@ However, attempts to evaluate the effectiveness of results-free peer review coul
 
 To overcome these limitations, the we plan to conduct a randomised controlled trial (RCT), comparing reviewer recommendations based on results-free review versus review-as-usual for papers submitted to BMC Series and other Nature-Springer journals recruited into the study. 
 
-To increase sensitivity of the trial, and to evaluate self-selection bias of authors who opt in to the trial, we will include a measure of methodological quality of the studies under consideration, using a tool developed for this purpose, enabled on an online platform. 
+To increase sensitivity of the trial, we will include a measure of methodological quality of the studies under consideration, using a tool developed for this purpose, enabled on an online platform. 
   
 ## Objectives  
 
@@ -44,7 +44,7 @@ xx papers will be selected to represent the kind of articles that will be includ
   
 ### Procedure 
  
-Each rater will be introduced to the online tool and then asked to rate x papers. Each paper will be assigned to two independent raters. For each rated item, agreement between raters will evaluated using ?kappa. Sources of disagreement will be discussed between the two raters and one of the course tutors, so that a set of qualitative comments can be collated to consider whether there are any systematic reasons for disagreement. 
+Each rater will be introduced to the online tool and then asked to rate a pool of 6 papers. Each paper will be assigned to two independent raters. For each rated item, agreement between raters will evaluated using ?kappa. Sources of disagreement will be discussed between the two raters and one of the course tutors, so that a set of qualitative comments can be collated to consider whether there are any systematic reasons for disagreement. 
 
   
 ## Results  
