@@ -56,8 +56,11 @@ I'll assume you have installed the MASS, Hmisc and yarr functions, and we'll now
 Now run the next chunk.
 
 ```{r preliminaries, include=FALSE}
+if(!require(MASS)){install.packages('MASS')}
 library(MASS) # for mvrnorm function to make multivariate normal distributed vars
+if(!require(Hmisc)){install.packages('Hmisc')}
 library(Hmisc) # for rcorr function: gives correlation matrix and p values
+if(!require(yarrr)){install.packages('yarrr')}
 library(yarrr) # for pirate plots (see below)
 
 options(scipen=999) 
