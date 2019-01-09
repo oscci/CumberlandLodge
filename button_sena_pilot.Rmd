@@ -12,8 +12,13 @@ csl: apa.csl
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+```{r loadpackages}
+if(!require(irr)){install.packages('irr')}
+if(!require(tidyverse)){install.packages('tidyverse')}
 
-
+library(irr)
+library(tidyverse)
+```
 # Evaluating the primary outcome measure developed to assess methodological rigour of experimental studies spanning biomedicine
 
 *N.B. Draft version only!* 
@@ -64,9 +69,76 @@ Table 1 shows the proportion of agreement between five raters for each rated fea
 (Table 1 to go here)
 
 
+
+```{r readdata}
+data_dictionary<-read.csv("checklistUploadTemplate.csv")
+
+labels <- data_dictionary$Options %>% as.character() %>% strsplit(.,split=';', fixed=TRUE) %>% unlist() %>% unique()
+
+#"In vitro"          " In vivo"          " Both"             "Yes"               " No"               " Partially"       
+#" Not Applicable"   "Within-subjects"   " Between-subjects" " Mixed"
+
+#--------------------------------------------------------------------#
+npaper<-6
+nquestion <- 30
+
+studycodes <- c('db13ada2-94bb-41c6-981f-e39da1dd4707',
+                '01aa2ecf-abcd-410c-9082-b3b2a2ed7596',
+                '1cf94d1d-5314-4fa1-9f2e-a025ff8e4381',
+                'd028f68c-83e0-4625-ab40-44bcf6cb6c60',
+                'b831658d-7dbf-423a-9844-31d7ebf6d064',
+                '4d712a5b-0977-4e7a-b59b-b22c936d5847')
+                
+# 1. pigs db13ada2-94bb-41c6-981f-e39da1dd4707
+# 2. mice 01aa2ecf-abcd-410c-9082-b3b2a2ed7596
+# 3. mutant mice gluca 1cf94d1d-5314-4fa1-9f2e-a025ff8e4381
+# 4. human social anxiety d028f68c-83e0-4625-ab40-44bcf6cb6c60
+# 5 body size b831658d-7dbf-423a-9844-31d7ebf6d064
+# 6. human consolidation 4d712a5b-0977-4e7a-b59b-b22c936d5847
+
+consensus.codes <- read.csv("expert_codes_combined.csv",stringsAsFactors = FALSE) #EM/KB answers, 30 codes for each of 6 papers 
+consensus.codes$Qnum <- rep(1:nquestion,npaper)
+#We want to sort the consensus codes by question rather than by paper, as that will make it easier to evaluate the questions
+#Easiest way is to create a dummy variable that has both and can be used for sorting
+consensus.codes$dummyvar <- consensus.codes$Qnum+consensus.codes$PublicationNumber/10
+
+consensus2 <-  consensus.codes[order(consensus.codes$dummyvar),] 
+#make a data frame to hold ratings by new raters
+
+mysummary <- data.frame(matrix(NA, nrow=npaper*nquestion,ncol=13))
+colnames(mysummary)<- c('Qnum','Paper','Question','expert.response','R1','R2','R3','R4','R5','R6','R7','R8','percent.agree')
+mysummary$Qnum<-rep(1:nquestion,each=npaper)
+mysummary$Paper<-rep(1:npaper,nquestion)
+mysummary$Question<-rep(paste(data_dictionary$Question,"(",data_dictionary$Options,")"),each=npaper)
+mysummary$expert.response <- consensus2$Answer
+
+
+mydata<-read.csv("sena_button_mark2.csv",stringsAsFactors = FALSE)
+mydata$TraineeIds <- as.factor(mydata$TraineeIds)
+nraters<-length(levels(mydata$TraineeIds))
+nraters<-c(0,0,0,0,0,0)
+for (j in 1:30){
+  thisrater<-filter(mydata,TraineeIds==levels(mydata$TraineeIds)[j])
+  thispaper <-thisrater$PublicationId[1] #PROVISIONAL CODE
+  w<-which(studycodes==thispaper)
+  nraters[w]<-nraters[w]+1
+  #We need a way to match this to the number codes for papers in mydata
+  thisrater<-filter(thisrater,PublicationId==thispaper) #this step only needed at test phase where same rater did more than one paper. It just ensures only the first paper is included
+  
+  papernum <- w #just put in to test if this works
+  rowrange<- which(mysummary$Paper==papernum)
+  mysummary[rowrange,(4+nraters[w])]<-thisrater$Answer
+}
+
+write.csv(mysummary,'Sena_Button_summary.csv')
+
+#Compute percent agreement
+
+
+```
+
 ## Raters
 <!-- It will be useful to have a list of names, affiliations and emails of all students who contribute a rating to this exercise. I have added name/email here in alphabetic order of surname, but these need reformatting to put a comma and the institution after the name, and the email in brackets. So please could you please add your institutional affiliation: this gives an opportunity for you to practice skills in Github. You will need to commit and then push the file when you have made the change.-->
-
 
 Nika Adamian	nika.adamian@abdn.ac.uk
 Jessie Baldwin	jessie.baldwin@kcl.ac.uk
@@ -93,7 +165,7 @@ Beatriz Sanz-Bernardo	Beatriz.SanzBernardo@pirbright.ac.uk
 Lara Scofano	lara.scofano@queens.ox.ac.uk
 Bregje Seves	b.l.seves@umcg.nl
 Nadia Soliman	n.soliman16@imperial.ac.uk
-Jac kie Thompson	jackie.thompson@psy.ox.ac.uk
+Jackie Thompson	jackie.thompson@psy.ox.ac.uk
 Marta Topor	m.topor@surrey.ac.uk
 Karolina Urbanska	karolina.urbanska@uca.fr
 Eline Van Geert	eline.vangeert@kuleuven.be
