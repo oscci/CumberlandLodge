@@ -1,0 +1,70 @@
+---
+title: "Power simulation for t-test"
+author: "DVM Bishop"
+date: "10/01/2019"
+output: html_document
+---
+
+This uses the basic structure of simulation_ex1_multi to just demonstrate how you get power values out of a simulation.
+
+You need to specify the effect size of interest. This can be one of the most difficult aspects of power calculation. In the past, people often recommended using previous literature to get an estimate of effect size, but given that the literature is often subject to publication bias, effect sizes tend to be exaggerated. 
+
+There are various ways of measuring effect size, but the simplest is when comparing two means, where you can use Cohen's d, which is (X2-X1)/SD, where X1 is mean for group 1, X2 is mean for group 2, and SD is the pooled standard deviation.
+
+A better approach is to just decide what would be the smallest effect size you would want to detect. This makes you have to think about what would be an interesting effect. For instance, if you were testing the impact of a diet, by measuring the weight loss on the diet (X2) relative to weight loss with a control condition (X1). A difference between X2 and X1 of 1 lb is unlikely to be interesting. A difference of 5 lb is not large but might be nevertheless worthwhile. So you could specify an effect size that corresponded to a 5 lb difference between X2 and X1. Suppose the SD of weight loss was 10 lb in both groups, then this would correspond to an effect size of 0.5 (5/10).  
+
+So now you want to find what sample size you need to get power of .8 to find an effect of this size.
+
+The way you do this via simulation would be to repeatedly simulate data with an effect size of interest (in this case .5) , varying the sample size. If you do 1000 simulations for each of several sample sizes, you can then see how often you get p < .05 for each sample size.
+
+Let's try this out, looking at sample sizes ranging from 20 per group to 200 per group, in steps of 20.
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+# disable scientific notation in the output to make it easy to read
+options(scipen=999) #http://stackoverflow.com/questions/25946047/how-to-prevent-scientific-notation-in-r
+```
+
+First we just set up the parameters of the simulation
+
+```{r initialise.vars}
+myNs<-c(20,40,60, 80, 100,120, 140,160,180,200) #c denote 'concatenate' and is used to create a vector of values
+#  We will simulate 1000 samples of each size 
+myES<-0.5 #effect size for difference between groups (you can try changing this)
+my.nsims<-1000  #when you have homed in to useful range of values, you could increase to 10000 for more precise estimate
+#Now initialise a dataframe that will store the % significant p-values (power) for each sample size
+my.pvals <- data.frame(matrix(NA, nrow<-length(myNs),ncol=3))
+colnames(my.pvals)<-c('N.per.gp','effectsize','power')
+```
+
+Now we get on to repeatedly generating simulated values. For each N, we store the number of p-values below the .05 threshold. After we've done all the simulations, we just compute the proportion of all simulations that gave a statistically significant result.
+
+
+```{r runloop}
+myrow<-0
+for (i in myNs){ 
+  myrow<-myrow+1
+  mypcount<-0
+  myN<-i
+  my.pvals$N.per.gp[myrow]<-myN
+  my.pvals$effectsize[myrow]<-myES
+  for (j in 1:my.nsims){ #inner loop, nested within outer loop. This runs my.sims times. 
+    #Each time it generates a new sample using script like that of Simulation_ex_1_intro.R
+    myvectorA<-rnorm(n = myN, mean = 0, sd = 1) 
+    myvectorB<-rnorm(n = myN, mean = myES, sd = 1)
+    myt <- t.test(myvectorA,myvectorB) 
+    if(myt$p.value<.05) {mypcount<-mypcount+1}
+  } 
+  my.pvals$power[myrow]<-mypcount/my.nsims
+}
+my.pvals
+```
+
+If you want to work with 80% power, then you find a value of N that gives power at least as great as .8.
+  
+Because computing power for a t-test is easy, you could double check that this script is working properly. These values should be in line with those you would obtain with G-power, and should also match the value of N at the intersection of the effect size (.5) and specific values of power in this table from Cohen's book.
+
+![*Table from Cohen's 1988 book (p.88).*](cohenpic.png)
+
